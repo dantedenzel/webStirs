@@ -15,3 +15,4 @@ function login(element) {
 function hide(el) {
     el.remove();
 }
+// add more functionality 
