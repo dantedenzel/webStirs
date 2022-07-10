@@ -29,13 +29,15 @@ a {
 .title {
     font-size: 3.2rem;
 }
+/* new search bar  */
 
-.search {
+/* old search bar */
+/* .search {
     flex: 1;
     font-size: 1.2rem;
     padding: 5px 10px;
     margin: 0 100px;
-}
+} */
 
 .btn {
     font-size: 1.2rem;
