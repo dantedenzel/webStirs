@@ -1,4 +1,4 @@
-onsole.log("page loaded...");
+console.log("page loaded...");
 
 function message() {
     alert("Ninja was liked!");
