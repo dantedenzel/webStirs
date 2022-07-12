@@ -24,4 +24,13 @@ function add() {
 function hide(el) {
     el.remove();
 }
+
+// It is used to import collect.js library
+import collect from 'collect.js';
+
+const num = [0 , 1 , 2 , 3 , 4, 5 , 6, 7, 8, 9]; 
+const data = collect(num);
+const total = data.count();
+
+console.log('Total number of elements are:', {total});
 // add more functionality 
