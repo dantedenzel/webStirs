@@ -1,7 +1,8 @@
 console.log("page loaded...");
 
 function message() {
-    alert("Ninja was liked!");
+    alert("Ninja was liked!")
+    console.log(message + 1);
 }
 
 
