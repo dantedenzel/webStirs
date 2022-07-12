@@ -1,8 +1,7 @@
 console.log("page loaded...");
 
 function message() {
-    alert("Ninja was liked " + add() + " time")
-    console.log(message + 1);
+    alert("Ninja was liked ");
 }
 
 
@@ -14,23 +13,37 @@ function login(element) {
     }
 }
 
-function add() {
-    let counter = 0;
-    function plus() {counter += 1;}
-    plus();   
-    return counter;
-}
+// function add() {
+//     let counter = 0;
+//     function plus() {counter += 1;}
+//     plus();   
+//     return counter;
+// }
 
 function hide(el) {
     el.remove();
 }
 
-// It is used to import collect.js library
-import collect from 'collect.js';
+// let counterDisplayElem = document.querySelector('.counter-display');
+// let counterMinusElem = document.querySelector('.counter-minus');
+// let counterPlusElem = document.querySelector('.counter-plus');
 
-const num = [0 , 1 , 2 , 3 , 4, 5 , 6, 7, 8, 9]; 
-const data = collect(num);
-const total = data.count();
+// let count = 0;
 
-console.log('Total number of elements are:', {total});
+// updateDisplay();
+
+
+// counterPlusElem.addEventListener("click",()=>{
+//     counter++;
+//     updateDisplay();
+// });
+
+// counterMinusElem.addEventListener("click",()=>{
+//     counter--;
+//     updateDisplay();
+// });
+
+// function updateDisplay(){
+//     counterDisplayElem.innerHTML = count;
+// };
 // add more functionality 
