@@ -40,3 +40,5 @@ function hide(el) {
 //     counterDisplayElem.innerHTML = count;
 // };
 // add more functionality 
+
+// use crud
